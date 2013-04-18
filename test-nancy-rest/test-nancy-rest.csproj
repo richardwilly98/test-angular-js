@@ -1215,7 +1215,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="views\new-user.html">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="views\view3.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

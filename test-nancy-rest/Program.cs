@@ -12,7 +12,6 @@ namespace Test.Nancy.Rest
         static void Main(string[] args)
         {
             string url = "http://localhost:999";
-            url = "http://SKIPPER-WIN7-2.luckyluke.local:999";
             var nancyHost = new NancyHost(new Uri(url));
             nancyHost.Start();
             Console.WriteLine(String.Format("Server listening on url: {0}", url));
